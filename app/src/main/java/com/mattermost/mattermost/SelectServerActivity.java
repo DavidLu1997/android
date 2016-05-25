@@ -6,6 +6,7 @@ package com.mattermost.mattermost;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -17,7 +18,7 @@ import com.mattermost.service.IResultListener;
 import com.mattermost.service.MattermostService;
 import com.mattermost.service.Promise;
 
-public class SelectServerActivity extends AppActivity {
+public class SelectServerActivity extends AppCompatActivity {
 
     public static final int START_CODE = 11;
 
